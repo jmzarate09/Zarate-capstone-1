@@ -1,0 +1,419 @@
+/* CSS Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Fira Mono', monospace;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	overflow-x: hidden;
+}
+
+/* Navbar Section */
+
+.navbar {
+	padding-top: 5px;
+	padding-bottom: 0;
+	background-color: #EEEEEE;
+	z-index: 9;
+}
+
+.navbar .container-fluid {
+	width: 100%;
+	padding: 0 15px;
+}
+
+.container-fluid {
+	width: 100%;
+	padding: 0 15px;
+}
+
+
+.navbar .navbar-brand {
+	color: #000000;
+	font-size: 30px;
+}
+
+
+.navbar-nav .nav-item {
+	position: relative;
+	padding-right: 10px;
+}
+ .nav-item .nav-link {
+ 	color: #000000;
+ }
+
+/* Home Section */
+
+#home {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 70px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: #000000;
+	background-color: #EEEEEE;
+	background-image: linear-gradient(to bottom right, #EEEEEE, #3F4E4F);
+}
+
+.bg-image {
+	background-repeat: no-repeat;
+	background-color: #EEEEEE;
+	min-height: 100vh;
+	position: absolute;
+}
+
+#home .container-fluid {
+	width: 100%;
+	padding: 0 15px;
+	background-color: #EEEEEE;
+}
+
+.home-image img {
+	display: block;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.intro h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 70px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.intro h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin-bottom: 130px;
+}
+
+/* About Me Section */
+
+#about {
+	padding: 70px 50px;
+	color: #000000;
+	background-color: #ffff;
+	text-transform: uppercase;
+}
+
+
+.title h2{
+	margin-bottom: 65px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 50px;
+	line-height: 1.5;
+	position: relative;
+	text-align: center;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+.about-description {
+	padding-right: auto;
+}
+
+
+/* Modal Section */
+
+.modal-content {
+	background-color: #EEEEEE;
+	background-image: linear-gradient(to bottom right, #EEEEEE, #3F4E4F);
+}
+
+.progress .percentage1 {
+	width: 80%;
+}
+
+.progress .percentage2 {
+	width: 80%;
+}
+
+.progress .percentage3 {
+	width: 20%;
+}
+
+.progress .percentage4 {
+	width: 10%;
+}
+
+.progress .percentage5 {
+	width: 10%;
+}
+
+.progress .percentage6 {
+	width: 90%;
+}
+
+.progress .percentage7 {
+	width: 85%;
+}
+
+
+/* Project Section */
+
+#project {
+	padding: 70px 50px;
+	color: #000000;
+	background-color: #EEEEEE;
+	background-image: linear-gradient(to bottom right, #EEEEEE, #3F4E4F);
+	text-transform: uppercase;
+}
+
+#project .container-fluid {
+	width: 100%;
+	padding: 0 15px;
+	background-color: #EEEEEE;
+}
+
+.image-section img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	padding: 8px;
+}
+
+.image-section h4 {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.image-section p {
+	font-size: 12px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+
+
+/* Service Section */
+
+#service {
+	padding: 70px 50px;
+	color: #000000;
+	background-color: #ffff;
+	text-transform: uppercase;
+}
+
+.service-description {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 100%;
+}
+
+.service-description h2 {
+	font-size: 80px;
+}
+
+.service-section img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	justify-content: center;
+}
+
+.service-section h3 {
+	text-align: center;
+	margin-top: 15px;
+}
+
+
+/* Contact Section */
+
+#contact {
+	padding: 70px 50px;
+	color: #000000;
+	background-color: #3F4E4F;
+	background-image: linear-gradient(to bottom right, #3F4E4F, #EEEEEE);
+	text-transform: uppercase;
+}
+
+#contact .container-fluid {
+	width: 100%;
+	padding: 0 15px;
+	background-color: #EEEEEE;
+}
+
+.contact-me {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.service-button {
+	padding-bottom: 20px;
+}
+
+.contact-me p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 70px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+.contact-me form {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #ffff;
+}
+
+.contact-me form button {
+	background-color: #ffff;
+}
+
+.contact-info {
+	background-color: #ffff;
+	padding: 20px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+.social-images {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+iframe {
+	width: 100%;
+}
+
+
+/* Footer Section */
+.copyright-area {
+	margin: 10px 0;
+	text-align: center;
+}
+
+/* Media Query */
+@media screen and (max-width: 991px) {
+	.intro h1 {
+		font-size: 70px;
+		line-height: 0.8;
+	}
+
+	.intro h2 {
+		font-size: 50px;
+	}
+
+	.service-description h2 {
+		font-size: 70px;
+	}
+
+	.contact-me p {
+		font-size: 60px;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 785px) {
+	.intro h1 {
+		font-size: 60px;
+		line-height: 1;
+	}
+
+	.intro h2 {
+		font-size: 40px;
+	}
+
+	.service-description h2 {
+		font-size: 60px;
+	}
+
+	.contact-me p {
+		font-size: 50px;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 647px) {
+	.intro h1 {
+		font-size: 50px;
+		line-height: 1.2;
+	}
+
+	.intro h2 {
+		font-size: 30px;
+	}
+
+	.service-description h2 {
+		font-size: 50px;
+	}
+
+	.contact-me p {
+		font-size: 30px;
+	}
+
+}
+
+@media screen and (max-width: 575px) {
+	.intro h1 {
+		font-size: 50px;
+		line-height: 1.2;
+	}
+
+	.intro h2 {
+		font-size: 30px;
+	}
+
+	.service-description h2 {
+		font-size: 50px;
+	}
+
+	.contact-me p {
+		font-size: 30px;
+	}
+
+}
+
+@media screen and (max-width: 522px) {
+	.intro h1 {
+		font-size: 40px;
+		line-height: 1.7;
+	}
+
+	.intro h2 {
+		font-size: 20px;
+	}
+
+	.service-description h2 {
+		font-size: 40px;
+	}
+
+	.contact-me p {
+		font-size: 20px;
+	}
+
+}
+
+
