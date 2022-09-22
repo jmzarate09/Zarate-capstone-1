@@ -315,6 +315,32 @@ iframe {
 
 /* Media Query */
 
+@media screen and (max-width: 1200px) {
+	.intro h1 {
+		font-size: 65px;
+		line-height: 0.5;
+	}
+
+	.intro h2 {
+		font-size: 50px;
+	}
+
+	.service-description h2 {
+		font-size: 70px;
+	}
+
+	.contact-me p {
+		font-size: 60px;
+		text-align: center;
+	}
+
+	.contact-info {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+}
+
 @media screen and (max-width: 1025px) {
 	.intro h1 {
 		font-size: 65px;
@@ -341,14 +367,40 @@ iframe {
 
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
 	.intro h1 {
-		font-size: 65px;
+		font-size: 60px;
+		line-height: 0.5;
+	}
+
+	.intro h2 {
+		font-size: 45px;
+	}
+
+	.service-description h2 {
+		font-size: 70px;
+	}
+
+	.contact-me p {
+		font-size: 60px;
+		text-align: center;
+	}
+
+	.contact-info {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+}
+
+@media screen and (max-width: 872px) {
+	.intro h1 {
+		font-size: 50px;
 		line-height: 0.8;
 	}
 
 	.intro h2 {
-		font-size: 50px;
+		font-size: 30px;
 	}
 
 	.service-description h2 {
@@ -397,10 +449,11 @@ iframe {
 
 }
 
-@media screen and (max-width: 647px) {
+
+@media screen and (max-width: 747px) {
 	.intro h1 {
-		font-size: 50px;
-		line-height: 1.2;
+		font-size: 35px;
+		line-height: 1;
 	}
 
 	.intro h2 {
@@ -425,7 +478,7 @@ iframe {
 
 @media screen and (max-width: 575px) {
 	.intro h1 {
-		font-size: 50px;
+		font-size: 35px;
 		line-height: 1.2;
 	}
 
@@ -460,7 +513,7 @@ iframe {
 
 @media screen and (max-width: 522px) {
 	.intro h1 {
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 1.7;
 	}
 
@@ -510,7 +563,7 @@ iframe {
 
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 561px) {
 	.intro h1 {
 		font-size: 35px;
 		line-height: 1;
@@ -546,7 +599,7 @@ iframe {
 }
 
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 453px) {
 	.intro h1 {
 		font-size: 30px;
 		line-height: 1.2;
