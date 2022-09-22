@@ -314,9 +314,36 @@ iframe {
 }
 
 /* Media Query */
+
+@media screen and (max-width: 1025px) {
+	.intro h1 {
+		font-size: 65px;
+		line-height: 0.5;
+	}
+
+	.intro h2 {
+		font-size: 50px;
+	}
+
+	.service-description h2 {
+		font-size: 70px;
+	}
+
+	.contact-me p {
+		font-size: 60px;
+		text-align: center;
+	}
+
+	.contact-info {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+}
+
 @media screen and (max-width: 991px) {
 	.intro h1 {
-		font-size: 70px;
+		font-size: 65px;
 		line-height: 0.8;
 	}
 
@@ -333,16 +360,21 @@ iframe {
 		text-align: center;
 	}
 
+	.contact-info {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
 }
 
 @media screen and (max-width: 785px) {
 	.intro h1 {
-		font-size: 60px;
+		font-size: 50px;
 		line-height: 1;
 	}
 
 	.intro h2 {
-		font-size: 40px;
+		font-size: 30px;
 	}
 
 	.service-description h2 {
@@ -356,6 +388,11 @@ iframe {
 
 	.copyright-area p {
 		font-size: 14px;
+	}
+
+	.contact-info {
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 
 }
@@ -375,7 +412,13 @@ iframe {
 	}
 
 	.contact-me p {
-		font-size: 30px;
+		font-size: 50px;
+		padding: 0;
+	}
+
+	.contact-info {
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 
 }
@@ -395,7 +438,8 @@ iframe {
 	}
 
 	.contact-me p {
-		font-size: 30px;
+		font-size: 40px;
+		padding: 0;
 	}
 
 	.social-images {
@@ -405,6 +449,11 @@ iframe {
 
 	.copyright-area p {
 		font-size: 10px;
+	}
+
+	.contact-info {
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 
 }
@@ -424,7 +473,13 @@ iframe {
 	}
 
 	.contact-me p {
-		font-size: 20px;
+		font-size: 35px;
+		padding: 0;
+	}
+
+	.contact-info {
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 
 }
@@ -444,7 +499,13 @@ iframe {
 	}
 
 	.contact-me p {
-		font-size: 15px;
+		font-size: 30px;
+		padding: 0;
+	}
+
+	.contact-info {
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 
 }
@@ -464,7 +525,13 @@ iframe {
 	}
 
 	.contact-me p {
-		font-size: 15px;
+		font-size: 30px;
+		padding: 0;
+	}
+
+	.contact-info {
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 
 	.title h2 {
@@ -474,6 +541,78 @@ iframe {
 	.social-images {
 		width: 50px;
 		height: 50px;
+	}
+
+}
+
+
+@media screen and (max-width: 376px) {
+	.intro h1 {
+		font-size: 30px;
+		line-height: 1.2;
+	}
+
+	.intro h2 {
+		font-size: 15px;
+	}
+
+	.service-description h2 {
+		font-size: 25px;
+	}
+
+	.contact-me p {
+		font-size: 20px;
+		padding: 0;
+	}
+
+	.contact-info {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.title h2 {
+		font-size: 30px;
+	}
+
+	.social-images {
+		width: 50px;
+		height: 50px;
+	}
+
+}
+
+@media screen and (max-width: 321px) {
+	.intro h1 {
+		font-size: 30px;
+		line-height: 1.2;
+	}
+
+	.intro h2 {
+		font-size: 15px;
+	}
+
+	.service-description h2 {
+		font-size: 25px;
+	}
+
+	.contact-me p {
+		font-size: 20px;
+		padding: 0;
+	}
+
+	.contact-info {
+		font-size: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.title h2 {
+		font-size: 30px;
+	}
+
+	.social-images {
+		width: 20px;
+		height: 20px;
 	}
 
 }
